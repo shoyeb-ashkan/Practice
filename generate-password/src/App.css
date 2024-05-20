@@ -1,0 +1,84 @@
+* {
+  font-family: Arial;
+}
+
+.container {
+  margin: 0 10% 0 10%;
+  background-color: #24232b;
+  padding: 24px;
+  color: white;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charLength {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charLength > span {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #2a8b8b;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.checkbox {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+.checkbox span{
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+  
+}
+
+.checkbox > input, label{
+  cursor: pointer;
+}
+
+.generateBtn{
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.errorMsg{
+  font-size: 15px;
+  color: red;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.password-strength{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+}

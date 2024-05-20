@@ -1,0 +1,33 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  
+}
+
+.progressbar{
+  position: relative;
+  height: 20px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: rgb(176, 160, 160);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progressbar>div{
+  color: rgb(2, 29, 2);
+  height: 100%;
+  background-color: #00c251;
+  text-align: center;
+  
+}
+.progressbar> span{
+  position: absolute;
+  width: 100%;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}

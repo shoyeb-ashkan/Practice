@@ -1,0 +1,46 @@
+*:focus {
+  outline: none;
+}
+.App {
+  width: 95%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: poppins;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.inp {
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 2.5px;
+}
+
+.lables {
+  display: flex;
+  justify-content: space-between;
+}
+.slider {
+  width: 100%;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border-radius: 100px;
+  background-color: rgb(255 255 255);
+}
+
+.selected {
+  background-color: aqua;
+}
+.tenureContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
